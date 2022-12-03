@@ -1,4 +1,4 @@
-<template>
+<template class="main-app">
   <div id="app">
     <nav>
       <router-link to="/">Home</router-link> |
@@ -16,7 +16,9 @@
   text-align: center;
   color: #2c3e50;
 }
-
+html{
+  background-color: #e7e7e7;
+}
 nav {
   padding: 30px;
 }
